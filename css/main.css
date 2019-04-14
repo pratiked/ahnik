@@ -1,0 +1,29 @@
+body, html{
+    margin: 0px;
+}
+
+#header{
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    margin: 0px;
+}
+
+nav {
+    background-color: lightgreen;
+    width: 20em;
+}
+
+nav ul{
+    padding-left: 25px;
+}
+
+img{
+    width: 400px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+article{
+    margin-left: 40px;
+}
