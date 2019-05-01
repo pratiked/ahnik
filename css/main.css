@@ -27,3 +27,22 @@ img{
 article{
     margin-left: 40px;
 }
+
+table{
+    margin-left: 2em;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid gray;
+}
+
+td.ingredient{
+    text-align: left;
+    padding-right: 2em;
+}
+
+td.amount{
+    text-align: right;
+    padding-left: 2em;
+}

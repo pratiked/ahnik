@@ -3,7 +3,7 @@
 
 <head>
  <meta charset="UTF-8">
- <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/main.css" type="text/css">
 <title>My favorite Recipes</title>
 </head>
     <body>
@@ -21,11 +21,21 @@
             <img src="images/salad.jpg" alt="salad" width="300">
             <p>Who can resist a fresh salad ! Here's one of my favorites.</p>
             <h3>List of Ingredients:</h3>
-            <ul id="unordered" class="list">
-                <li>Ingredient 1</li>
-                <li>Ingredient 2</li>
-                <li>Ingredient 3</li>
-            </ul>
+            <table>
+                <tr>
+                    <td class="ingredient">Ingredient 1</td>
+                    <td class="amount">200 grams</td>
+                </tr>
+                <tr>
+                    <td class="ingredient">Ingredient 2</td>
+                    <td class="amount">2 kg</td>
+                </tr>
+                <tr>
+                    <td class="ingredient">Ingredient 3</td>
+                    <td class="amount">20 grams</td>
+                </tr>
+                
+            </table>
             <h3>Steps:</h3>
             <ol id="ordered" class="list" start="5" reversed>
                 <li title="step 1">Step 1</li>
