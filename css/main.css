@@ -1,5 +1,6 @@
 body, html{
     margin: 0px;
+    font-size: 120%;
 }
 
 #header{
@@ -7,11 +8,21 @@ body, html{
     background-color: darkslategray;
     color: white;
     margin: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 nav {
     background-color: lightgreen;
     width: 20em;
+    position: fixed;
+    top: 4rem;
+    opacity: 0.8;
+}
+
+nav:hover{
+    opacity: 1.0;
 }
 
 nav ul{
@@ -26,6 +37,10 @@ img{
 
 article{
     margin-left: 40px;
+    min-width: 30rem;
+    max-width: 50rem;
+    margin: auto;
+    margin-top: 4rem;
 }
 
 table{
